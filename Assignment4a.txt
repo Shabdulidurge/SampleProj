@@ -1,4 +1,0 @@
-package com.test.demo
-
-def str = "Hello,Groovy!"
-println str.length()
