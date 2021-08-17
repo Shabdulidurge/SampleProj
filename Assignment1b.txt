@@ -1,5 +1,0 @@
-package com.test.demo
-
-x = 1 + 1.5
-println x
-println "Datatype of x is:" + x.getClass().getName()
