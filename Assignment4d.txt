@@ -1,0 +1,11 @@
+package com.test.demo
+
+ String sen = "Hello, World. How are you?"
+ List ki =[]
+ List si=[]
+ ki=sen.split()
+ println ki
+ println ki.size()
+ si = sen.tokenize()
+ println si
+ println si.size()

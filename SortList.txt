@@ -1,0 +1,25 @@
+package com.test.demo
+
+class Sorting_a_list {
+	
+	String name
+	int days
+	def getvalues(String n ,int d)
+	{
+		def name = n
+		def days = d
+		def l = [name:n,days:d]
+	}
+
+	static void main(args) {
+		Sorting_a_list First=new Sorting_a_list()
+		Sorting_a_list Second=new Sorting_a_list()
+		Sorting_a_list Third=new Sorting_a_list()
+		Sorting_a_list Fourth=new Sorting_a_list()
+		
+		def common = [First.getvalues('Shabduli', 25),   Second.getvalues('Deepali', 32), Third.getvalues('Shrikant', 46), Fourth.getvalues('Avinash', 18)]
+		
+		def sort = common.sort{a, b -> b["days"] <=> a["days"] ?: a["name"] <=> b["name"]}
+		sort.each { println it }
+	}
+}

@@ -1,0 +1,10 @@
+package com.test.demo
+
+def num = 10
+
+if(num==10) {
+	println "num is 10"
+}
+else {
+	println "num is mot 10"
+}

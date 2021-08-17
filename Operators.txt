@@ -1,0 +1,14 @@
+package com.test.demo
+
+assert 1 + 2 == 3
+assert 2 * 6 == 12
+assert 3 / 2 == 1.5
+assert +3 == 3
+assert -4 == 0 - 4
+
+int i = 10
+println i++
+
+def a = 3
+a+=3
+println a

@@ -1,0 +1,18 @@
+package com.test.demo
+
+a1 = 2
+a2 = 2000000000
+a3 = 20000000000000000
+a4 = 20000000000000000000000000000000
+println "Data type of a1 is:" + a1.getClass().getName()
+println "Data type of a1 is:" + a2.getClass().getName()
+println "Data type of a1 is:" + a3.getClass().getName()
+println "Data type of a4 is:" + a4.getClass().getName()
+
+//float
+b1 = 2000000000.0 
+b2 = 2000000000000000000000000000.0 
+b3 = 200000000000000000000000000000000.0 
+println "Data type of b1 is:" + b1.getClass().getName()
+println "Data type of b2 is:" + b2.getClass().getName()
+println "Data type of b3 is:" + b3.getClass().getName()

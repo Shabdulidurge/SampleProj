@@ -1,0 +1,14 @@
+package com.test.demo
+
+def name = "Shabduli"
+println name
+println "My name is ".concat(name)
+def name1 = "Anushka"
+println  "My best Friend's name is ${name1}"
+
+def name2 =  "Shabduli"
+println name.length()
+println name2
+println name.indexOf('h')
+println name[0..2]
+println name.substring(2)

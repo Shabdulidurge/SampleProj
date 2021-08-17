@@ -1,0 +1,6 @@
+package com.test.demo
+
+String sen="Hello, World. How are you?"
+String cut=""
+cut=sen.substring(22, 25)
+println cut.reverse()
