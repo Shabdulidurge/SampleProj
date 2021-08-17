@@ -1,5 +1,0 @@
-package com.test.demo
-
-String name = "Shabduli Durge"
-println "Hello " +name
-println "Hello ${name}"
